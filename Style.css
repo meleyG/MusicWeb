@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+   /* background-color: rgb(49, 48, 48);*/
+}
+.abt {
+    display: flex;/*display side by side*/
+  }
+.p_image1 {
+  width: 33%;/*important*/
+  float: left;/*move to the left*/
+  padding: 5px;/*the space around the image from the  top to image, left to image , right to image, bottom to image*/
+  margin-right: auto;
+}
+.p_image2 {
+  width: 33%;/*important*/
+  float: right;/*move to the right*/
+  padding: 5px;/*the space around the image from the  top to image, left to image , right to image, bottom to image*/
+}
+.p_image3 {
+  float: right;/*move to the right*/
+  padding: 5px;/*the space around the image from the  top to image, left to image , right to image, bottom to image*/
+  margin-top: 320px;/*sets the space between the top of the page and the picture in this case*/
+}
+.imagge {
+  width: 100%;
+  height: 500px;
+}  
+.vid {
+  position:fixed;/* set the spotify link to be pinned to the top the page*/
+  top: 22%;/*set the space between the top pf the page and video*/
+  left: 50%;/*sets how close to the right you want it to be or how close to the left..the less the number  the closer to the left , the higher the number the closer to the right*/
+  transform: translate(-50%, -50%);
+  padding: 5px;/*the space around the image from the  top to image, left to image , right to image, bottom to image*/
+}
+.texting {
+   position:relative;
+    text-align: center;
+    color: white;
+}
+.p1 {
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style : oblique;
+    position: absolute;
+    top: 0.1%;/*sets the space between the video at the top of the page and the text in this case*/
+    left: 34%;/*sets how close to the right you want it to be or how close to the left..the less the number  the closer to the left , the higher the number the closer to the right*/
+   
+  }
+  .lef {
+    position: absolute;
+    top: 70%;/*sets the space between the top of the page and the picture in this case*/
+  }
+  .p_image4 {
+  float: left;/*move the left side of the screen*/
+  padding: 5px;/*the space around the image from the  top to image, left to image , right to image, bottom to image*/
+}
+  .p2 {
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 50%;/*sets the space between the top of the page and the text in this case*/
+    left: 43%;/*sets how close to the right you want it to be or how close to the left..the less the number the closer to the left , the higher the number the closer to the right*/
+    transform: translate(-10%, -50%);
+  }
+  #icon {
+    width: 80px;
+    cursor: pointer;
+    opacity: 0.6;
+    border: 0px;
+  }
+  .righ {
+    width: 200px;
+    position: absolute;/*fixed sets the content/video in this case to be pinned to the screen, so when u scroll up or down the video or content doesnt move..absolute does the opposite*/
+    top: 80%;/*sets the space between the top of the page and the video in this case*/
+    left: 73.5%;/*sets how close to the right you want it to be or how close to the left..the less the number  the closer to the left , the higher the number the closer to the right*/
+    margin-top: 180px;/*sets the space between the top of the page and the video in this case*/
+    float: right;/* brings content to the right side of the screen*/
+    padding: 5px;/*the space around the image from the  top to image, left to image , right to image, bottom to image*/
+    transform: translate(-50%, -50%);
+  }
